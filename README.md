@@ -1,7 +1,6 @@
-![büyük-veri](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/b%C3%BCy%C3%BCk-veri.png)
 # Büyük Veri
 
-üyük Veri'nin tanımı, daha fazla çeşitlilik içeren, artan hacimlerde ve daha hızlı gelen verilerdir. Bu aynı zamanda 3V olarak da bilinir.
+Büyük Veri'nin tanımı, daha fazla çeşitlilik içeren, artan hacimlerde ve daha hızlı gelen verilerdir. Bu aynı zamanda 3V olarak da bilinir.
 
 ![5v](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/5v.png)
 ## Volume (Veri Hacmi)
@@ -85,3 +84,9 @@ Bu yapıda her bir key karşılığında bir array yada veri yapısı bulunur. A
 Bu yapının genel amacı veriler arasındaki ilişkileri saklayabilmektir. Her bir veri birer node olabilir ve buradaki  asıl amacımız node'lar arasında ilişkileri yönleriyle beraber  tanımlayabilmektir. (Neo4j)
 
 ![Graph-DB](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/Graph-DB.PNG)
+
+
+### Proje Yönetim Mimarisi
+
+![Big-Data-Ekosistem-2]()
+
