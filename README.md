@@ -10,7 +10,7 @@ Hız, verilerin alındığı ve (belki) üzerinde işlem yapıldığı hızlı o
 ## Variety (Veri Çeşitliliği)
 Çeşitlilik, mevcut birçok veri türünü ifade eder. Geleneksel veri türleri yapılandırılmıştır ve ilişkisel bir veritabanına düzgün bir şekilde sığdırılmıştır . Büyük verinin yükselişiyle birlikte, yeni yapılandırılmamış veri türlerinde veriler ortaya çıkıyor. Metin, ses ve video gibi yapılandırılmamış ve yarı yapılandırılmış veri türleri, anlam türetmek ve meta verileri desteklemek için ek ön işleme gerektirir.
 
-## Büyük Veri Tarihi
+## **Büyük Veri Tarihi**
 
 Büyük veri kavramının kendisi nispeten yeni olmasına rağmen, büyük veri setlerinin kökenleri, veri dünyasının ilk veri merkezleri ve ilişkisel veri tabanının geliştirilmesiyle yeni başladığı 1960'lara ve 70'lere kadar gitmektedir.
 
@@ -53,40 +53,8 @@ Büyük verileri etkin bir şekilde kullabilmek içn iki önemli faktör karşı
 
 Bu noktada Apache Kafka, akan verileri bir queue (mesaj kuyruğuna) içerisine atarak Hadoop, Spark, Elasticsearch gibi diğer sistemlere transfer etmemizi sağlar.
 
-### NoSQL
-NoSQL karamı, yıllardır bilişim dünyasında vazgeçilmez bir yere sahip olan ilişkisel veritabanı sistemlerine (RDBMS) alternatif olarak çıkan, aslen internetin gün geçtikçe artan verisini depolayabilmek ve yüksek trafiğe sahip sistemlerin ihtiyaçlarına cevap verebilmek amacıyla ortaya çıkmış ölçeklendirilebilen sistemlere verilen genel addır.
-
-- Document 
-- Wide Column 
-- Key Value
-- Graph DB
-
-#### Document 
-Document store tipinde ise veriler document (belge) şeklinde kaydedilir. Mesela bir json verisi document olarak kabul edilir.  (MongoDB - Elasticsearch)
-
-![mongoDB](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/mongoDB.PNG)
-
-![elasticsearc](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/elasticsearch.PNG)
-
-#### Wide Column
-Buradaki yapı klasik veritabanına benzer. Tablolar, kolonlar ve satırlar vardır. En büyük farkı ise yapıyı belirlerken süper column olacak alanları belirleriz ve bu alanların altına her kayıt için farklı bir kolon gelebilir.  (Hadoop - HBase - Cassandra)
-
-![HBase](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/HBase.PNG)
-
-![Hadoop](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/Hadoop.PNG)
-
-#### Key Value
-Bu yapıda her bir key karşılığında bir array yada veri yapısı bulunur. Amacımız key'ler üzerinden hızlı bir şekilde verilerie ulaşabilmektir. (Redis - DynamoDB)
-
-![Key-Value](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/Key-Value.PNG)
-
-#### Graph DB
-Bu yapının genel amacı veriler arasındaki ilişkileri saklayabilmektir. Her bir veri birer node olabilir ve buradaki  asıl amacımız node'lar arasında ilişkileri yönleriyle beraber  tanımlayabilmektir. (Neo4j)
-
-![Graph-DB](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/Graph-DB.PNG)
-
-
 ### Proje Yönetim Mimarisi
 
-![Big-Data-Ekosistem-2]()
+![Big-Data-Ekosistem-2](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/Big-Data-Ekosistem-2.PNG)
 
+<a name="link_ismi">NoSQL</a>
