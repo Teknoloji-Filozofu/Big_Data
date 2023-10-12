@@ -59,3 +59,9 @@ Bu noktada Apache Kafka, akan verileri bir queue (mesaj kuyruğuna) içerisine a
 
 ## [NoSQL](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/sayfalar/NoSQL.md)
 
+## [Hadoop](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/sayfalar/Hadoop.md)
+
+## [MongoDB]()
+## [Elasticsearch]()
+
+## [Apache Kafka]()
