@@ -57,5 +57,5 @@ Bu noktada Apache Kafka, akan verileri bir queue (mesaj kuyruğuna) içerisine a
 
 ![Big-Data-Ekosistem-2](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/Big-Data-Ekosistem-2.PNG)
 
-<a name="https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/sayfalar/NoSQL.md">NoSQL</a>
+## [NoSQL](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/sayfalar/NoSQL.md)
 
