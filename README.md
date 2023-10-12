@@ -1,9 +1,9 @@
-![büyük-veri]()
+![büyük-veri](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/b%C3%BCy%C3%BCk-veri.png)
 # Büyük Veri
 
 üyük Veri'nin tanımı, daha fazla çeşitlilik içeren, artan hacimlerde ve daha hızlı gelen verilerdir. Bu aynı zamanda 3V olarak da bilinir.
 
-![5v]()
+![5v](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/5v.png)
 ## Volume (Veri Hacmi)
 Veri miktarı önemlidir. Büyük verilerle, yüksek hacimli, düşük yoğunluklu, yapılandırılmamış verileri işlemeniz gerekir. Bu, Twitter veri akışları, bir web sayfasındaki veya mobil uygulamadaki tıklama akışları veya sensör özellikli ekipman gibi değeri bilinmeyen veriler olabilir. Bazı kuruluşlar için bu, onlarca terabayt veri olabilir. Diğerleri için yüzlerce petabayt olabilir.
 ## Velocity (Veri Hızı)
@@ -50,7 +50,7 @@ Büyük verileri etkin bir şekilde kullabilmek içn iki önemli faktör karşı
 - Büyük verileri analiz etmek 
 - Büyük veri bloklarını hatasız ve hızlı bir biçimde toplayıp, diğer sistemlere transfer edebilmek içn bir mesajlaşma sistemine(queue) ihtiyacımız vardır.
 
-![Big-Data-Ekosisitem]()
+![Big-Data-Ekosisitem](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/Big-Data-Ekosistem.PNG)
 
 Bu noktada Apache Kafka, akan verileri bir queue (mesaj kuyruğuna) içerisine atarak Hadoop, Spark, Elasticsearch gibi diğer sistemlere transfer etmemizi sağlar.
 
@@ -65,23 +65,23 @@ NoSQL karamı, yıllardır bilişim dünyasında vazgeçilmez bir yere sahip ola
 #### Document 
 Document store tipinde ise veriler document (belge) şeklinde kaydedilir. Mesela bir json verisi document olarak kabul edilir.  (MongoDB - Elasticsearch)
 
-![mongoDB]()
+![mongoDB](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/mongoDB.PNG)
 
-![elasticsearc]()
+![elasticsearc](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/elasticsearch.PNG)
 
 #### Wide Column
 Buradaki yapı klasik veritabanına benzer. Tablolar, kolonlar ve satırlar vardır. En büyük farkı ise yapıyı belirlerken süper column olacak alanları belirleriz ve bu alanların altına her kayıt için farklı bir kolon gelebilir.  (Hadoop - HBase - Cassandra)
 
-![HBase]()
+![HBase](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/HBase.PNG)
 
-![Hadoop]()
+![Hadoop](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/Hadoop.PNG)
 
 #### Key Value
 Bu yapıda her bir key karşılığında bir array yada veri yapısı bulunur. Amacımız key'ler üzerinden hızlı bir şekilde verilerie ulaşabilmektir. (Redis - DynamoDB)
 
-![Key-Value]()
+![Key-Value](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/Key-Value.PNG)
 
 #### Graph DB
 Bu yapının genel amacı veriler arasındaki ilişkileri saklayabilmektir. Her bir veri birer node olabilir ve buradaki  asıl amacımız node'lar arasında ilişkileri yönleriyle beraber  tanımlayabilmektir. (Neo4j)
 
-![Graph-DB]()
+![Graph-DB](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/Graph-DB.PNG)
