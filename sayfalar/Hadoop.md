@@ -64,7 +64,7 @@ STORED AS TEXTFILE;
 - ### Apache HBase
 Genellikle Hadoop ile eşleştirilmiş, açık kaynaklı, ilişkisel olmayan dağıtılmış bir veritabanı
 
-### [Apache Pig]()
+### [Apache Pig](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/sayfalar/ApachePig.md)
 
 
 ### Apache Impala

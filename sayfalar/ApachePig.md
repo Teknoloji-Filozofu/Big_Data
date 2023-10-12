@@ -1,6 +1,6 @@
 Büyük veri kümelerini analiz etmek için MapReduce üzerinde bir soyutlama katmanı olarak kullanılan ve filtreleme, sıralama, yükleme ve birleştirme gibi işlevleri etkinleştiren bir araç.
 
-![Pig]()
+![Pig](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/Pig.PNG)
 
 Apache Pig Avantajları ; 
 
@@ -54,9 +54,9 @@ DUMP New_Data;
 
 ### Pig Operatörleri
 
-![Pig-operatör]()
+![Pig-operatör](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/Pig-operat%C3%B6r.PNG)
 
-![Pig-operatör-2]()
+![Pig-operatör-2](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/Pig-operat%C3%B6r-2.PNG)
 
 veri içinde koltuk geçen veriyi alıyoruz.
 
@@ -87,11 +87,11 @@ New_Data = FILTER Data BY(country=='TR') AND (duration>3000);
 DUMP New_Data;
 ```
 
-![Pig-operatör-3]()
+![Pig-operatör-3](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/Pig-operat%C3%B6r-3.PNG)
 
 ### Pig Fonksiyonlar 
 
-![pig-fonksiyon]()
+![pig-fonksiyon](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/pig-fonksiyon.PNG)
 
 ```pig
 First = LOAD '/operatorexam/disteticaretlog' USING PigStorage(',') AS
@@ -105,9 +105,9 @@ New_Data = DISTINCT First;
 DUMP New_Data;
 ```
 
-![pig-fonksiyon-2]()
+![pig-fonksiyon-2](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/pig-fonksiyon-2.PNG)
 
-![pig-fonksiyon-3]()
+![pig-fonksiyon-3](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/pig-fonksiyon-3.PNG)
 
 ```pig
 Data = LOAD '/operatorexam/eticaretlog' USING PigStorage(',') AS
@@ -121,7 +121,7 @@ New_Data = GROUP Data BY country;
 DUMP New_Data;
 ```
 
-![pig-fonkisyonu-4]()
+![pig-fonkisyonu-4](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/pig-fonksiyon-4.PNG)
 
 ```pig
 Data = LOAD '/operatorexam/eticaretlog' USING PigStorage(',') AS
@@ -141,7 +141,7 @@ Result_Data = FOREACH Gr_Data{
 DUMP Result_Data;
 ```
 
-![pig-fonksiyonu-5]()
+![pig-fonksiyonu-5](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/pig-fonksiyon-5.PNG)
 
 ```pig
 Data = LOAD '/operatorexam/eticaretlog' USING PigStorage(',') AS
@@ -161,7 +161,7 @@ New_Data = FOREACH Gr_Data{
 DUMP New_Data;
 ```
 
-![pig-join]()
+![pig-join](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/pig-join.PNG)
 
 ```pig
 Personal = LOAD '/joinexam/Per' USING PigStorage(',') AS
@@ -179,7 +179,7 @@ New_Data = JOIN Personal BY dept_id,Departman BY dept_id;
 DUMP New_Data;
 ```
 
-![pig-left-join]()
+![pig-left-join](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/pig-left-join.PNG)
 
 
 ```pig
@@ -198,7 +198,7 @@ New_Data = JOIN Personal BY name LEFT OUTER,Pay BY name;
 DUMP New_Data;
 ```
 
-![pig-right-join]()
+![pig-right-join](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/pig-right-join.PNG)
 
 ```pig
 Personal = LOAD '/joinexam/Per' USING PigStorage(',') AS
@@ -216,7 +216,7 @@ New_Data = JOIN Personal BY name RIGHT OUTER,Pay BY name;
 DUMP New_Data;
 ```
 
-![pig-full-join]()
+![pig-full-join](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/pig-full-jo%C4%B1n.PNG)
 
 ```pig
 Personal = LOAD '/joinexam/Per' USING PigStorage(',') AS
@@ -234,7 +234,7 @@ New_Data = JOIN Personal BY name FULL OUTER,Pay BY name;
 DUMP New_Data;
 ```
 
-![pig-unıon]()
+![pig-unıon](https://github.com/Teknoloji-Filozofu/Big_Data/blob/main/_media/pig-un%C4%B1on.PNG)
 
 ```pig
 Personal = LOAD '/joinexam/Per' USING PigStorage(',') AS
